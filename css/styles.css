@@ -1,0 +1,3 @@
+#show-contact {
+  display: none;
+}
