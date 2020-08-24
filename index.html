@@ -11,7 +11,29 @@
 </head>
 <body>
   <div class="container-fluid">
+    <h1>Address Book</h1>
+    <h2>Add a Contact:</h2>
+    <form id="new-contact">
+      <label for="new-first-name">First Name</label>
+      <input type="text" id="new-first-name">
+      <label for="new-last-name">Last Name</label>
+      <input type="text" id="new-last-name">
+      <label for="new-phone-number">Phone Number</label>
+      <input type="text" id="new-phone-number">
+      <button type="submit" class="btn btn-primary">Add</button>
+    </form>
     
+    <h2>Contacts:</h2>
+    <ul id="contacts">
+    </ul>
+
+    <div id="show-contact">
+      <p>First Name: <span class="first-name"></span></p>
+      <p>Last Name: <span class="last-name"></span></p>
+      <p>Phone Number: <span class="phone-number"></span></p>
+      <div id="buttons">
+      </div>
+    </div>
   </div>
   
 </body>
